@@ -9,10 +9,10 @@
 #define x_axis_pin A0
 #define y_axis_pin A1
 // key values
-const char left_char = 's';
-const char right_char = 'f';
-const char up_char = 'e';
-const char down_char = 'd';
+const char left_char = 'w';
+const char right_char = 'd';
+const char up_char = 'a';
+const char down_char = 's';
 // values which create a dead zone around the center of the joystick, so x_axis must be > 128 + 49 or < 128 - 49 and y_axis must be > 127 + 50 or < 127 - 50 to press a key in order to avoid high sensivity movements 
 const int target_x_value = 49;
 const int target_y_value = 50;
